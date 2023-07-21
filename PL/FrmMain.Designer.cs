@@ -59,7 +59,7 @@ namespace PL
             this.button1.Location = new System.Drawing.Point(369, 25);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(167, 172);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 2;
             this.button1.Text = "Salary";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = true;
@@ -71,7 +71,7 @@ namespace PL
             this.button2.Location = new System.Drawing.Point(542, 25);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(167, 172);
-            this.button2.TabIndex = 2;
+            this.button2.TabIndex = 3;
             this.button2.Text = "Permission";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = true;
@@ -83,7 +83,7 @@ namespace PL
             this.button3.Location = new System.Drawing.Point(196, 25);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(167, 172);
-            this.button3.TabIndex = 3;
+            this.button3.TabIndex = 1;
             this.button3.Text = "Task";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@ namespace PL
             this.button4.Location = new System.Drawing.Point(196, 213);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(167, 172);
-            this.button4.TabIndex = 7;
+            this.button4.TabIndex = 5;
             this.button4.Text = "Position";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.UseVisualStyleBackColor = true;
@@ -107,10 +107,11 @@ namespace PL
             this.button5.Location = new System.Drawing.Point(542, 213);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(167, 172);
-            this.button5.TabIndex = 6;
+            this.button5.TabIndex = 7;
             this.button5.Text = "Exit";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -119,7 +120,7 @@ namespace PL
             this.button6.Location = new System.Drawing.Point(369, 213);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(167, 172);
-            this.button6.TabIndex = 5;
+            this.button6.TabIndex = 6;
             this.button6.Text = "Logout";
             this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button6.UseVisualStyleBackColor = true;

@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace PL
 {
-    public partial class FrmMain : Form
+    public partial class FrmDepartment : Form
     {
-        public FrmMain()
+        public FrmDepartment()
         {
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void closeBtn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }
