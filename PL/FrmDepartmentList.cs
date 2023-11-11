@@ -41,5 +41,10 @@ namespace PL
         {
             this.Close();
         }
+
+        private void w_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
